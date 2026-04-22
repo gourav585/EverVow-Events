@@ -9,6 +9,18 @@ npm start
 Default port is `3100` to avoid clashes with editor previews.
 Open `http://127.0.0.1:3100`.
 
+## Deploy on Vercel
+
+- Framework Preset: `Other`
+- Root Directory: repository root (this folder)
+- Output Directory: leave empty (do not set `dist` or `build`)
+- Build Command: leave empty
+- Install Command: optional (`npm install`)
+
+This repo includes:
+- `vercel.json` for SPA + static page routing
+- `api/contact.js` for serverless contact endpoint on Vercel
+
 ## Configure analytics and business details
 
 Edit `site-config.js`:
