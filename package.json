@@ -1,0 +1,9 @@
+{
+  "name": "evervow-events-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Static multi-page website with built-in lead capture API for EverVow Events.",
+  "scripts": {
+    "start": "node server.js"
+  }
+}
